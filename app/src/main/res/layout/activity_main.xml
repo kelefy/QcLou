@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.kongfanyi.qclou.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bgimageView"
+        app:srcCompat="@mipmap/bgimage2"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="138dp"
+        android:id="@+id/qcimageview"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        />
+
+    <Button
+        android:text=""
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:id="@+id/button"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent"
+        />
+</FrameLayout>
